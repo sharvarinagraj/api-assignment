@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PAWSOME</title>
+    <!--
+    If the user's browser supports PaymentRequest, the merchant page updates 
+    the checkout button to use PaymentRequest instead of using legacy web forms.
+  -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+        #success,
+        #legacy {
+            display: none;
+        }
+
+        body::after {
+            content: "";
+            background-image: url(https://source.unsplash.com/random/query?dogs/300px );
+
+            opacity: 0.4;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="main_header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-mug-hot"></i>PAWSOME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallary.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="checkout-button" href="#">DONATE</a>
+                        </li>
+
+                        <form class="d-flex">
+                            <button class="btn" type="submit">Sign in</button>
+                        </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="intro">
+        <div class="col-lg-6 col-10 mx-auto">
+            <div class="header_main__text">
+
+            </div>
+            Doggo ipsum mlem smol corgo borking doggo dat tungg tho extremely cuuuuuute clouds long woofer, stop it fren
+            ur givin me a spook heckin good boys and girls puggorino pats boof. Puggo long water shoob porgo wrinkler,
+            floofs aqua doggo. Blop long water shoob woofer long doggo doggo the neighborhood pupper, doggorino puggo
+            wow very biscit extremely cuuuuuute. Borking doggo long water shoob shibe fluffer floofs, doing me a
+            frighten puggo borking doggo. Many pats boof length boy, the neighborhood pupper. Dat tungg tho corgo wow
+            very biscit smol borking doggo with a long snoot for pats what a nice floof, clouds waggy wags. thicc
+            woofer. Fat boi borkf shibe long water shoob, heckin good boys and girls.
+
+            tungg. many pats clouds fluffer. Puggorino noodle horse clouds noodle horse the neighborhood pupper noodle
+            horse big ol pupper, shooberino h*ck thicc doge. Corgo fat boi smol, doggo. Heckin good boys heck shibe
+            doing me a frighten, wow very biscit. Long bois puggorino sub woofer, super chub. Floofs adorable doggo
+            corgo length boy most angery pupper I have ever seen, wow such tempt very good spot. Tungg blop very good
+            spot puggo, mlem sub woofer. Much ruin diet pats clouds very taste wow dat tungg tho, fat boi shibe.
+
+            Aqua doggo wrinkler maximum borkdrive long water shoob you are doin me a concern heckin big ol, adorable
+            doggo corgo doggorino super chub. Very good spot smol pupperino such treat, what a nice floof. Mlem snoot
+            very jealous pupper vvv heck lotsa pats long woofer thicc tungg, ur givin me a spook porgo long doggo
+            borkdrive boofers pupper. Fat boi doge very good spot shooberino waggy wags, wow very biscit woofer puggo.
+            Big ol you are doin me a concern heck, borking doggo. Very hand that feed shibe shoober he made many woofs
+            what a nice floof, tungg you are doing me a frighten. Very good spot smol borking doggo with a long snoot
+            for pats puggorino ruff blop clouds wow very biscit, heckin good boys and girls smol snoot wrinkler heck,
+            very good spot wow very biscit very hand that feed shibe length boy I am bekom fat. I am bekom fat what a
+            nice floof fat boi, what a nice floof. Sub woofer length boy smol wow very biscit super chub, woofer smol
+            shoober.
+
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
